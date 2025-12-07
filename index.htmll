@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- 
+    Your Favorite Food Assignment
+    Author: Alivia Richardson
+    File: index.html
+    Description: Webpage about my favorite food - Alfredo
+-->
+
+<html lang="en">
+<head>
+    <!-- Main metadata for the page -->
+    <meta charset="UTF-8">
+    <title>My Favorite Food - Alfredo</title>
+    <style>
+        /* Simple styling just to make it look nicer */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fffaf5;
+        }
+
+        header, footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .highlight {
+            background-color: #fff3b0;
+        }
+
+        .ingredients {
+            margin-top: 10px;
+        }
+
+        .note {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Header Section -->
+    <header>
+        <h1><strong>My Favorite Food: Creamy Alfredo Pasta</strong></h1>
+        <p><small>Created by Alivia for the Your Favorite Food assignment.</small></p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Intro Section with some required tags -->
+        <section>
+            <!-- Brief introduction about why I love Alfredo -->
+            <h2>Why I Love <i>Alfredo</i></h2>
+            <p>
+                Alfredo is my <b>absolute favorite</b> comfort food. 
+                I love how the <mark class="highlight">creamy garlic sauce</mark> 
+                wraps around every noodle. It’s rich, warm, and makes me feel at home.
+            </p>
+            <p>
+                I first fell in love with Alfredo on 
+                <time datetime="2016-08-15">August 15, 2016</time>, 
+                when I tried it at a family dinner. Since then, it has been my go-to meal 
+                whenever I want something delicious and comforting.
+            </p>
+        </section>
+
+        <!-- Image Section -->
+        <section>
+            <!-- Replace the src with the actual path or URL to your alfredo image -->
+            <h2>Alfredo in All Its Glory</h2>
+            <p>
+                Below is a picture of creamy Alfredo pasta. 
+                <!-- Remember to update the image source to your own file or online image -->
+            </p>
+
+            <img src="alfredo.jpg" alt="A plate of creamy Alfredo pasta">
+
+            <p class="note">
+                <small>Note: Update <code>alfredo.jpg</code> to the correct image file name or URL in your project.</small>
+            </p>
+        </section>
+
+        <!-- Scrolling Image Using Deprecated Feature (marquee) -->
+        <section>
+            <!-- This uses a deprecated feature on purpose for the assignment -->
+            <h2>Scrolling Alfredo (Deprecated Feature Example)</h2>
+            <p>
+                Below is an example of a scrolling image using the 
+                <code>&lt;marquee&gt;</code> tag, which is now deprecated but used here 
+                to meet the assignment requirement of researching deprecated features.
+            </p>
+
+            <marquee behavior="scroll" direction="left">
+                <img src="alfredo.jpg" alt="Scrolling Alfredo Pasta">
+            </marquee>
+
+            <p class="note">
+                <small>
+                    The <code>&lt;marquee&gt;</code> tag is deprecated in modern HTML. 
+                    Today, developers would normally use CSS animations instead.
+                </small>
+            </p>
+        </section>
+
+        <!-- Ingredients Section (using subscript and mark) -->
+        <section>
+            <!-- Ingredients list with some highlighted elements -->
+            <h2>Key Ingredients in My Alfredo</h2>
+            <ul class="ingredients">
+                <li><mark>Fettuccine pasta</mark></li>
+                <li>Heavy cream and butter</li>
+                <li>Freshly grated <strong>Parmesan</strong> cheese</li>
+                <li>Garlic (lightly sautéed)</li>
+                <li>Salt and pepper</li>
+                <li>A little bit of pasta water and plenty of love</li>
+                <li>Optional: A sprinkle of parsley and extra cheese</li>
+                <li>Served with a cold glass of H<sub>2</sub>O</li>
+            </ul>
+        </section>
+
+        <!-- Quote Section -->
+        <section>
+            <!-- Using quote tag to show how I feel about Alfredo -->
+            <h2>How Alfredo Makes Me Feel</h2>
+            <p>
+                I would describe Alfredo like this:
+            </p>
+            <blockquote>
+                <q>
+                    Alfredo is like a warm hug in a bowl – creamy, cozy, and always there for me after a long day.
+                </q>
+            </blockquote>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Closing thoughts and time tag -->
+        <p>
+            <small>
+                Page last imagined on 
+                <time datetime="2025-12-07">December 7, 2025</time>. 
+                Made with care and a craving for Alfredo.
+            </small>
+        </p>
+    </footer>
+
+    <!-- End of Document Comments -->
+    <!-- Thank you for visiting my favorite food page! -->
+</body>
+</html>
